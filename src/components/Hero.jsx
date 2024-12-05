@@ -36,6 +36,8 @@ function Hero() {
                     <ButtonPrimary 
                     label='Download CV'
                     icon='download'
+                    href="/files/resume.pdf"
+                    target='_blank'
                     ></ButtonPrimary> 
 
                     <ButtonOutline
