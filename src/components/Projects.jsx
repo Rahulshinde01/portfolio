@@ -9,16 +9,16 @@ const Projects = () => {
             projectLink: 'https://swift-pay-app.vercel.app/'
         },
         {
+          imgSrc: '/images/collabAI.png',
+          title: 'CollabAI - AI-Powered Collaboration Agent',
+          tags: ['React', 'Express', 'NodeJS', 'MongoDB', 'gemini AI'],
+          projectLink: 'https://github.com/Rahulshinde01/ai-agent'
+        },
+        {
             imgSrc: '/images/project2_2.jpg',
             title: 'InsightVault - a Tech Blogging Web app',
             tags: ['MERN stack', 'PostgreSQL', 'Prisma', 'Serverless Deployment'],
             projectLink: 'https://github.com/Rahulshinde01/blog-app'
-        },
-        {
-          imgSrc: '/images/myproject3.png',
-          title: 'Planify - a task management app',
-          tags: ['Frontend', 'React', 'TailwindCSS'],
-          projectLink: 'https://planify-psi.vercel.app/'
         },
         {
           imgSrc: '/images/aorasmartlens.png',
@@ -27,11 +27,11 @@ const Projects = () => {
           projectLink: 'https://github.com/Rahulshinde01/AoraSmartLens'
         },
         {
-          imgSrc: '/images/collabAI.png',
-          title: 'CollabAI - AI-Powered Collaboration Agent',
-          tags: ['React', 'Express', 'NodeJS', 'MongoDB', 'gemini AI'],
-          projectLink: 'https://github.com/Rahulshinde01/ai-agent'
-        },
+          imgSrc: '/images/myproject3.png',
+          title: 'Planify - a task management app',
+          tags: ['Frontend', 'React', 'TailwindCSS'],
+          projectLink: 'https://planify-psi.vercel.app/'
+        },        
       ];
 
   return (
