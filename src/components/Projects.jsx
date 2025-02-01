@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
     const works = [
         {
-            imgSrc: '/images/project1_1.png',
+            imgSrc: '/images/swiftpay.png',
             title: 'SwiftPay - a Digital Payment Platform',
             tags: ['React','Express.js','Node.js','MongoDB'],
             projectLink: 'https://swift-pay-app.vercel.app/'
@@ -19,6 +19,18 @@ const Projects = () => {
           title: 'Planify - a task management app',
           tags: ['Frontend', 'React', 'TailwindCSS'],
           projectLink: 'https://planify-psi.vercel.app/'
+        },
+        {
+          imgSrc: '/images/aorasmartlens.png',
+          title: 'AoraSmartLens - ai generated video sharing platform',
+          tags: ['React Native', 'React', 'TailwindCSS'],
+          projectLink: 'https://github.com/Rahulshinde01/AoraSmartLens'
+        },
+        {
+          imgSrc: '/images/collabAI.png',
+          title: 'CollabAI - AI-Powered Collaboration Agent',
+          tags: ['React', 'Express', 'NodeJS', 'MongoDB', 'gemini AI'],
+          projectLink: 'https://github.com/Rahulshinde01/ai-agent'
         },
       ];
 
